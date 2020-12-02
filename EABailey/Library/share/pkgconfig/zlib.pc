@@ -1,0 +1,13 @@
+prefix=C:/Users/josee/anaconda3/envs/EABailey/Library
+exec_prefix=C:/Users/josee/anaconda3/envs/EABailey/Library
+libdir=C:/Users/josee/anaconda3/envs/EABailey/Library/lib
+sharedlibdir=C:/Users/josee/anaconda3/envs/EABailey/Library/lib
+includedir=C:/Users/josee/anaconda3/envs/EABailey/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
